@@ -1,0 +1,28 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 20px;
+    height: 60px; /* Increased for better spacing */
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.nav__black {
+    background-color: #111;
+}
+
+.nav_logo {
+    width: 100px; /* Slightly larger for better visibility */
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.nav_avatar {
+    width: 40px; /* Increased for better scaling */
+    object-fit: contain;
+    cursor: pointer;
+}
